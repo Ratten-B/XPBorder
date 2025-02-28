@@ -48,6 +48,8 @@ public class XPBorderManager implements I_XPBorderManager {
     }
 
     private void sendPacket(Player player, Packet<?> packet) {
-        ((CraftPlayer) player).getHandle().c.a(packet);
+        ((CraftPlayer) player).getHandle().b.a(packet);
     }
+
+
 }
